@@ -734,7 +734,67 @@
                     <section class='print-page md-section' id='section-2' heading-number='2'>
                         <h1>Labs<a class='headerlink' href='#section-2' title='Permanent link'></a>
                         </h1>
-                    </section></div><style>.print-site-enumerate-headings #welcome > h1:before { content: '1 ' }
+                    <section class="print-page" id="index" heading-number="2.1"><h1 id="index-telepresence-labs">Telepresence Labs <img alt="📡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f4e1.svg" title=":satellite:" /><a class="headerlink" href="#index-telepresence-labs" title="Permanent link">&para;</a></h1>
+<p>A comprehensive collection of hands-on labs for learning and mastering <strong>Telepresence</strong> — the tool that bridges your local development environment with a remote Kubernetes cluster.</p>
+<hr />
+<h2 id="index-overview">Overview<a class="headerlink" href="#index-overview" title="Permanent link">&para;</a></h2>
+<p>These labs provide a progressive learning path from basic cluster connectivity to advanced debugging techniques. Each lab builds upon the previous one, taking you from Telepresence fundamentals to production-grade workflows.</p>
+<hr />
+<h2 id="index-lab-series"><img alt="🚀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f680.svg" title=":rocket:" /> Lab Series<a class="headerlink" href="#index-lab-series" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Lab</th>
+<th>Title</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>001</td>
+<td><a href="#001-cluster-bridge">The Cluster Bridge</a></td>
+<td>Connectivity &amp; DNS — access cluster services from your local machine</td>
+</tr>
+<tr>
+<td>002</td>
+<td><a href="#002-inner-dev-loop">The Inner Dev Loop</a></td>
+<td>Global Intercept — route all service traffic to your local code</td>
+</tr>
+<tr>
+<td>003</td>
+<td><a href="#003-ghost-developer">The Ghost Developer</a></td>
+<td>Personal Intercepts — develop without affecting teammates</td>
+</tr>
+<tr>
+<td>004</td>
+<td><a href="#004-context-clone">The Context Clone</a></td>
+<td>Env Vars &amp; Secrets — run locally with remote configuration</td>
+</tr>
+<tr>
+<td>005</td>
+<td><a href="#005-deep-dive">The Deep Dive</a></td>
+<td>Volume Mounts &amp; Debugging — mount remote files and live debug</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="index-prerequisites"><img alt="🔧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f527.svg" title=":wrench:" /> Prerequisites<a class="headerlink" href="#index-prerequisites" title="Permanent link">&para;</a></h2>
+<p>Before starting these labs, ensure you have:</p>
+<ul>
+<li>A Kubernetes cluster (k3s, EKS, GKE, Minikube, etc.)</li>
+<li><code>kubectl</code> configured to access the cluster</li>
+<li>Telepresence CLI installed</li>
+<li>Python 3.8+ (for sample applications)</li>
+<li>A text editor or IDE (VS Code recommended)</li>
+</ul>
+<hr />
+<h2 id="index-how-to-use-these-labs"><img alt="💡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f4a1.svg" title=":bulb:" /> How to Use These Labs<a class="headerlink" href="#index-how-to-use-these-labs" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Start with Lab 001</strong>: Establish connectivity to your cluster</li>
+<li><strong>Follow the sequence</strong>: Each lab builds on the previous one</li>
+<li><strong>Run the commands</strong>: Every lab includes copy-paste ready commands</li>
+<li><strong>Experiment</strong>: Modify the examples to match your own services</li>
+</ol></section></section></div><style>.print-site-enumerate-headings #welcome > h1:before { content: '1 ' }
 
                 .print-site-enumerate-headings #welcome h2:before { content: '1.' counter(counter-welcome-2) ' ' }
                 .print-site-enumerate-headings #welcome h2 {  counter-reset: counter-welcome-3 ;  counter-increment: counter-welcome-2 }
@@ -743,7 +803,11 @@
                 .print-site-enumerate-headings #welcome h3 {  counter-increment: counter-welcome-3 }
             
 .print-site-enumerate-headings #section-2 > h1:before { content: '2 ' }
-.print-site-enumerate-headings #index > h1:before { content: '2.1 ' }</style>
+.print-site-enumerate-headings #index > h1:before { content: '2.1 ' }
+
+                .print-site-enumerate-headings #index h2:before { content: '2.1.' counter(counter-index-2) ' ' }
+                .print-site-enumerate-headings #index h2 {  counter-increment: counter-index-2 }
+            </style>
 <!--
   Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 

@@ -8,4 +8,24 @@
          <loc>https://nirgeier.github.io/mkdocs/welcome/</loc>
          <lastmod>2026-04-19</lastmod>
     </url>
+    <url>
+         <loc>https://nirgeier.github.io/mkdocs/001-cluster-bridge/</loc>
+         <lastmod>2026-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://nirgeier.github.io/mkdocs/002-inner-dev-loop/</loc>
+         <lastmod>2026-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://nirgeier.github.io/mkdocs/003-ghost-developer/</loc>
+         <lastmod>2026-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://nirgeier.github.io/mkdocs/004-context-clone/</loc>
+         <lastmod>2026-04-19</lastmod>
+    </url>
+    <url>
+         <loc>https://nirgeier.github.io/mkdocs/005-deep-dive/</loc>
+         <lastmod>2026-04-19</lastmod>
+    </url>
 </urlset>
