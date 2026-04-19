@@ -6,3 +6,8 @@ nav:
   - Start Here: welcome.md
   - Labs:
       - index.md
+      - "Lab 1 - Cluster Bridge": 001-cluster-bridge/index.md
+      - "Lab 2 - Inner Dev Loop": 002-inner-dev-loop/index.md
+      - "Lab 3 - Ghost Developer": 003-ghost-developer/index.md
+      - "Lab 4 - Context Clone": 004-context-clone/index.md
+      - "Lab 5 - Deep Dive": 005-deep-dive/index.md
